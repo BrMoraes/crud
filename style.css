@@ -1,0 +1,48 @@
+body {
+   font-family: sans-serif;
+   margin: 0 50px;
+}
+
+body h1 {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.container {
+   display: flex;
+   gap: 80px;
+}
+
+#posts {
+   width: 400px;
+}
+
+i {
+   cursor: pointer;
+}
+
+#form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#msg {
+   margin-top: 10px;
+}
+
+#posts div {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.options {
+   display: flex;
+   gap: 25px;
+}
+
+#msg {
+   color: red;
+}
